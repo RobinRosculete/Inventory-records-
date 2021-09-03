@@ -1,0 +1,1137 @@
+//Test cases
+
+//1.testing Change Status functin with correct input 
+
+/*
+        Please enter an option from bellow
+        1.Print all items in the inventory unsorted!
+        2.Print invalid records from an error file!
+        3.Search for an item by ID or name!
+        4.Print a report of details!
+        5.Change Status of Item!
+        6.Print all active items
+        7.Print all discontinued items
+        8.Print all recalled Items
+        9.Sort by any field in ascending order
+        10.Quit Program!
+5
+What item do you want to change the status of? (If you wnat to go back to the main Menu press '4')
+Orange
+Item:
+     1235X    ORANGE        55     11.78
+        Your Item Status is currently  ACTIVE
+        To what status do you want to change it
+        Discontinued press '2'
+        Recalled press '3'
+        Go back to main Menu press '4'
+2
+Your Item was changed to DISCONTINUED status!
+
+        Please enter an option from bellow
+        1.Print all items in the inventory unsorted!
+        2.Print invalid records from an error file!
+        3.Search for an item by ID or name!
+        4.Print a report of details!
+        5.Change Status of Item!
+        6.Print all active items
+        7.Print all discontinued items
+        8.Print all recalled Items
+        9.Sort by any field in ascending order
+        10.Quit Program!
+5
+What item do you want to change the status of? (If you wnat to go back to the main Menu press '4')
+apple
+Item:
+     1236X     APPLE        76      8.65
+        Your Item Status is currently  ACTIVE
+        To what status do you want to change it
+        Discontinued press '2'
+        Recalled press '3'
+        Go back to main Menu press '4'
+3
+Your Item was changed to RECALLED status!
+
+        Please enter an option from bellow
+        1.Print all items in the inventory unsorted!
+        2.Print invalid records from an error file!
+        3.Search for an item by ID or name!
+        4.Print a report of details!
+        5.Change Status of Item!
+        6.Print all active items
+        7.Print all discontinued items
+        8.Print all recalled Items
+        9.Sort by any field in ascending order
+        10.Quit Program!
+5
+What item do you want to change the status of? (If you wnat to go back to the main Menu press '4')
+1235x
+Item:
+     1235X    ORANGE        55     11.78
+        Your Item Status is currently DISCONTINUED
+        To what status do you want to change it
+        Active press '1'
+        Recalled press '3'
+        Go back to main Menu press '4'
+3
+Your Item was changed to RECALLED status!
+
+        Please enter an option from bellow
+        1.Print all items in the inventory unsorted!
+        2.Print invalid records from an error file!
+        3.Search for an item by ID or name!
+        4.Print a report of details!
+        5.Change Status of Item!
+        6.Print all active items
+        7.Print all discontinued items
+        8.Print all recalled Items
+        9.Sort by any field in ascending order
+        10.Quit Program!
+5
+What item do you want to change the status of? (If you wnat to go back to the main Menu press '4')
+
+apple
+Item:
+     1236X     APPLE        76      8.65
+        Your Item Status is currently RECALLED
+        To what status do you want to change it
+        Active press '1'
+        Discontinued press '2'
+        Go back to main Menu press '4'
+2
+Your Item was changed to DISCONTINUED status!
+
+        Please enter an option from bellow
+        1.Print all items in the inventory unsorted!
+        2.Print invalid records from an error file!
+        3.Search for an item by ID or name!
+        4.Print a report of details!
+        5.Change Status of Item!
+        6.Print all active items
+        7.Print all discontinued items
+        8.Print all recalled Items
+        9.Sort by any field in ascending order
+        10.Quit Program!
+5
+What item do you want to change the status of? (If you wnat to go back to the main Menu press '4')
+mango
+Item:
+     1238X     MANGO        53     44.78
+        Your Item Status is currently  ACTIVE
+        To what status do you want to change it
+        Discontinued press '2'
+        Recalled press '3'
+        Go back to main Menu press '4'
+1
+Your Item was changed to ACTIVE status!
+
+        Please enter an option from bellow
+        1.Print all items in the inventory unsorted!
+        2.Print invalid records from an error file!
+        3.Search for an item by ID or name!
+        4.Print a report of details!
+        5.Change Status of Item!
+        6.Print all active items
+        7.Print all discontinued items
+        8.Print all recalled Items
+        9.Sort by any field in ascending order
+        10.Quit Program!
+5
+What item do you want to change the status of? (If you wnat to go back to the main Menu press '4')
+4
+Returned to main menu
+
+        Please enter an option from bellow
+        1.Print all items in the inventory unsorted!
+        2.Print invalid records from an error file!
+        3.Search for an item by ID or name!
+        4.Print a report of details!
+        5.Change Status of Item!
+        6.Print all active items
+        7.Print all discontinued items
+        8.Print all recalled Items
+        9.Sort by any field in ascending order
+        10.Quit Program!
+5
+What item do you want to change the status of? (If you wnat to go back to the main Menu press '4')
+orange
+Item:
+     1235X    ORANGE        55     11.78
+        Your Item Status is currently RECALLED
+        To what status do you want to change it
+        Active press '1'
+        Discontinued press '2'
+        Go back to main Menu press '4'
+4
+
+        Please enter an option from bellow
+        1.Print all items in the inventory unsorted!
+        2.Print invalid records from an error file!
+        3.Search for an item by ID or name!
+        4.Print a report of details!
+        5.Change Status of Item!
+        6.Print all active items
+        7.Print all discontinued items
+        8.Print all recalled Items
+        9.Sort by any field in ascending order
+        10.Quit Program!
+10
+Quiting program...
+
+C:\Users\Robin\Desktop\Scoala\Anul 2\SEM #2\CS 136\LABS\Lab 2.1!\Debug\Lab 2.1!.exe (process 19108) exited with code 0.
+Press any key to close this window . . .
+*/
+
+
+
+
+//2. testing Change Status with incorrect input and correct input
+/*
+        Please enter an option from bellow
+        1.Print all items in the inventory unsorted!
+        2.Print invalid records from an error file!
+        3.Search for an item by ID or name!
+        4.Print a report of details!
+        5.Change Status of Item!
+        6.Print all active items
+        7.Print all discontinued items
+        8.Print all recalled Items
+        9.Sort by any field in ascending order
+        10.Quit Program!
+5
+What item do you want to change the status of? (If you wnat to go back to the main Menu press '4')
+1342
+This item does not exist in our Record! Please try a different one!
+432
+This item does not exist in our Record! Please try a different one!
+%34
+This item does not exist in our Record! Please try a different one!
+or
+This item does not exist in our Record! Please try a different one!
+34
+This item does not exist in our Record! Please try a different one!
+-12
+This item does not exist in our Record! Please try a different one!
+orange
+Item:
+     1235X    ORANGE        55     11.78
+        Your Item Status is currently  ACTIVE
+        To what status do you want to change it
+        Discontinued press '2'
+        Recalled press '3'
+        Go back to main Menu press '4'
+3
+Your Item was changed to RECALLED status!
+
+        Please enter an option from bellow
+        1.Print all items in the inventory unsorted!
+        2.Print invalid records from an error file!
+        3.Search for an item by ID or name!
+        4.Print a report of details!
+        5.Change Status of Item!
+        6.Print all active items
+        7.Print all discontinued items
+        8.Print all recalled Items
+        9.Sort by any field in ascending order
+        10.Quit Program!
+5
+What item do you want to change the status of? (If you wnat to go back to the main Menu press '4')
+app$r
+This item does not exist in our Record! Please try a different one!
+apple
+Item:
+     1236X     APPLE        76      8.65
+        Your Item Status is currently  ACTIVE
+        To what status do you want to change it
+        Discontinued press '2'
+        Recalled press '3'
+        Go back to main Menu press '4'
+3
+Your Item was changed to RECALLED status!
+
+        Please enter an option from bellow
+        1.Print all items in the inventory unsorted!
+        2.Print invalid records from an error file!
+        3.Search for an item by ID or name!
+        4.Print a report of details!
+        5.Change Status of Item!
+        6.Print all active items
+        7.Print all discontinued items
+        8.Print all recalled Items
+        9.Sort by any field in ascending order
+        10.Quit Program!
+5
+What item do you want to change the status of? (If you wnat to go back to the main Menu press '4')
+apple
+Item:
+     1236X     APPLE        76      8.65
+        Your Item Status is currently RECALLED
+        To what status do you want to change it
+        Active press '1'
+        Discontinued press '2'
+        Go back to main Menu press '4'
+5
+This status does not exist! Please try again!
+
+        Please enter an option from bellow
+        1.Print all items in the inventory unsorted!
+        2.Print invalid records from an error file!
+        3.Search for an item by ID or name!
+        4.Print a report of details!
+        5.Change Status of Item!
+        6.Print all active items
+        7.Print all discontinued items
+        8.Print all recalled Items
+        9.Sort by any field in ascending order
+        10.Quit Program!
+3
+Enter an Item ID or Item Name: ornage
+Your Item was not found! Please try again.
+
+        Please enter an option from bellow
+        1.Print all items in the inventory unsorted!
+        2.Print invalid records from an error file!
+        3.Search for an item by ID or name!
+        4.Print a report of details!
+        5.Change Status of Item!
+        6.Print all active items
+        7.Print all discontinued items
+        8.Print all recalled Items
+        9.Sort by any field in ascending order
+        10.Quit Program!
+5
+What item do you want to change the status of? (If you wnat to go back to the main Menu press '4')
+apple
+Item:
+     1236X     APPLE        76      8.65
+        Your Item Status is currently RECALLED
+        To what status do you want to change it
+        Active press '1'
+        Discontinued press '2'
+        Go back to main Menu press '4'
+#
+This status does not exist! Please try again
+$
+This status does not exist! Please try again
+2
+Your Item was changed to DISCONTINUED status!
+
+        Please enter an option from bellow
+        1.Print all items in the inventory unsorted!
+        2.Print invalid records from an error file!
+        3.Search for an item by ID or name!
+        4.Print a report of details!
+        5.Change Status of Item!
+        6.Print all active items
+        7.Print all discontinued items
+        8.Print all recalled Items
+        9.Sort by any field in ascending order
+        10.Quit Program!
+5
+What item do you want to change the status of? (If you wnat to go back to the main Menu press '4')
+apple
+Item:
+     1236X     APPLE        76      8.65
+        Your Item Status is currently DISCONTINUED
+        To what status do you want to change it
+        Active press '1'
+        Recalled press '3'
+        Go back to main Menu press '4'
+1
+Your Item was changed to ACTIVE status!
+
+        Please enter an option from bellow
+        1.Print all items in the inventory unsorted!
+        2.Print invalid records from an error file!
+        3.Search for an item by ID or name!
+        4.Print a report of details!
+        5.Change Status of Item!
+        6.Print all active items
+        7.Print all discontinued items
+        8.Print all recalled Items
+        9.Sort by any field in ascending order
+        10.Quit Program!
+*/
+
+
+
+
+
+
+
+//3.Testing print functions
+/*
+        Please enter an option from bellow
+        1.Print all items in the inventory unsorted!
+        2.Print invalid records from an error file!
+        3.Search for an item by ID or name!
+        4.Print a report of details!
+        5.Change Status of Item!
+        6.Print all active items
+        7.Print all discontinued items
+        8.Print all recalled Items
+        9.Sort by any field in ascending order
+        10.Quit Program!
+1
+     1234X    BANANA         5     13.45
+     1235X    ORANGE        55     11.78
+     1236X     APPLE        76      8.65
+     1238X     MANGO        53     44.78
+
+        Please enter an option from bellow
+        1.Print all items in the inventory unsorted!
+        2.Print invalid records from an error file!
+        3.Search for an item by ID or name!
+        4.Print a report of details!
+        5.Change Status of Item!
+        6.Print all active items
+        7.Print all discontinued items
+        8.Print all recalled Items
+        9.Sort by any field in ascending order
+        10.Quit Program!
+5
+What item do you want to change the status of? (If you wnat to go back to the main Menu press '4')
+apple
+Item:
+     1236X     APPLE        76      8.65
+        Your Item Status is currently  ACTIVE
+        To what status do you want to change it
+        Discontinued press '2'
+        Recalled press '3'
+        Go back to main Menu press '4'
+2
+Your Item was changed to DISCONTINUED status!
+
+        Please enter an option from bellow
+        1.Print all items in the inventory unsorted!
+        2.Print invalid records from an error file!
+        3.Search for an item by ID or name!
+        4.Print a report of details!
+        5.Change Status of Item!
+        6.Print all active items
+        7.Print all discontinued items
+        8.Print all recalled Items
+        9.Sort by any field in ascending order
+        10.Quit Program!
+5
+What item do you want to change the status of? (If you wnat to go back to the main Menu press '4')
+orange
+Item:
+     1235X    ORANGE        55     11.78
+        Your Item Status is currently  ACTIVE
+        To what status do you want to change it
+        Discontinued press '2'
+        Recalled press '3'
+        Go back to main Menu press '4'
+3
+Your Item was changed to RECALLED status!
+
+        Please enter an option from bellow
+        1.Print all items in the inventory unsorted!
+        2.Print invalid records from an error file!
+        3.Search for an item by ID or name!
+        4.Print a report of details!
+        5.Change Status of Item!
+        6.Print all active items
+        7.Print all discontinued items
+        8.Print all recalled Items
+        9.Sort by any field in ascending order
+        10.Quit Program!
+mango
+Invlaid input. Please renter an option from bellow
+
+        Please enter an option from bellow
+        1.Print all items in the inventory unsorted!
+        2.Print invalid records from an error file!
+        3.Search for an item by ID or name!
+        4.Print a report of details!
+        5.Change Status of Item!
+        6.Print all active items
+        7.Print all discontinued items
+        8.Print all recalled Items
+        9.Sort by any field in ascending order
+        10.Quit Program!
+5
+What item do you want to change the status of? (If you wnat to go back to the main Menu press '4')
+mango
+Item:
+     1238X     MANGO        53     44.78
+        Your Item Status is currently  ACTIVE
+        To what status do you want to change it
+        Discontinued press '2'
+        Recalled press '3'
+        Go back to main Menu press '4'
+3
+Your Item was changed to RECALLED status!
+
+        Please enter an option from bellow
+        1.Print all items in the inventory unsorted!
+        2.Print invalid records from an error file!
+        3.Search for an item by ID or name!
+        4.Print a report of details!
+        5.Change Status of Item!
+        6.Print all active items
+        7.Print all discontinued items
+        8.Print all recalled Items
+        9.Sort by any field in ascending order
+        10.Quit Program!
+6
+     1234X    BANANA         5     13.45
+
+        Please enter an option from bellow
+        1.Print all items in the inventory unsorted!
+        2.Print invalid records from an error file!
+        3.Search for an item by ID or name!
+        4.Print a report of details!
+        5.Change Status of Item!
+        6.Print all active items
+        7.Print all discontinued items
+        8.Print all recalled Items
+        9.Sort by any field in ascending order
+        10.Quit Program!
+7
+     1236X     APPLE        76      8.65
+
+        Please enter an option from bellow
+        1.Print all items in the inventory unsorted!
+        2.Print invalid records from an error file!
+        3.Search for an item by ID or name!
+        4.Print a report of details!
+        5.Change Status of Item!
+        6.Print all active items
+        7.Print all discontinued items
+        8.Print all recalled Items
+        9.Sort by any field in ascending order
+        10.Quit Program!
+8
+     1235X    ORANGE        55     11.78
+     1238X     MANGO        53     44.78
+
+        Please enter an option from bellow
+        1.Print all items in the inventory unsorted!
+        2.Print invalid records from an error file!
+        3.Search for an item by ID or name!
+        4.Print a report of details!
+        5.Change Status of Item!
+        6.Print all active items
+        7.Print all discontinued items
+        8.Print all recalled Items
+        9.Sort by any field in ascending order
+        10.Quit Program!
+5
+What item do you want to change the status of? (If you wnat to go back to the main Menu press '4')
+orange
+Item:
+     1235X    ORANGE        55     11.78
+        Your Item Status is currently RECALLED
+        To what status do you want to change it
+        Active press '1'
+        Discontinued press '2'
+        Go back to main Menu press '4'
+1
+Your Item was changed to ACTIVE status!
+
+        Please enter an option from bellow
+        1.Print all items in the inventory unsorted!
+        2.Print invalid records from an error file!
+        3.Search for an item by ID or name!
+        4.Print a report of details!
+        5.Change Status of Item!
+        6.Print all active items
+        7.Print all discontinued items
+        8.Print all recalled Items
+        9.Sort by any field in ascending order
+        10.Quit Program!
+5
+What item do you want to change the status of? (If you wnat to go back to the main Menu press '4')
+apple
+Item:
+     1236X     APPLE        76      8.65
+        Your Item Status is currently DISCONTINUED
+        To what status do you want to change it
+        Active press '1'
+        Recalled press '3'
+        Go back to main Menu press '4'
+1
+Your Item was changed to ACTIVE status!
+
+        Please enter an option from bellow
+        1.Print all items in the inventory unsorted!
+        2.Print invalid records from an error file!
+        3.Search for an item by ID or name!
+        4.Print a report of details!
+        5.Change Status of Item!
+        6.Print all active items
+        7.Print all discontinued items
+        8.Print all recalled Items
+        9.Sort by any field in ascending order
+        10.Quit Program!
+6
+     1234X    BANANA         5     13.45
+     1235X    ORANGE        55     11.78
+     1236X     APPLE        76      8.65
+
+        Please enter an option from bellow
+        1.Print all items in the inventory unsorted!
+        2.Print invalid records from an error file!
+        3.Search for an item by ID or name!
+        4.Print a report of details!
+        5.Change Status of Item!
+        6.Print all active items
+        7.Print all discontinued items
+        8.Print all recalled Items
+        9.Sort by any field in ascending order
+        10.Quit Program!
+7
+
+        Please enter an option from bellow
+        1.Print all items in the inventory unsorted!
+        2.Print invalid records from an error file!
+        3.Search for an item by ID or name!
+        4.Print a report of details!
+        5.Change Status of Item!
+        6.Print all active items
+        7.Print all discontinued items
+        8.Print all recalled Items
+        9.Sort by any field in ascending order
+        10.Quit Program!
+8
+     1238X     MANGO        53     44.78
+
+        Please enter an option from bellow
+        1.Print all items in the inventory unsorted!
+        2.Print invalid records from an error file!
+        3.Search for an item by ID or name!
+        4.Print a report of details!
+        5.Change Status of Item!
+        6.Print all active items
+        7.Print all discontinued items
+        8.Print all recalled Items
+        9.Sort by any field in ascending order
+        10.Quit Program!
+5
+What item do you want to change the status of? (If you wnat to go back to the main Menu press '4')
+banana
+Item:
+     1234X    BANANA         5     13.45
+        Your Item Status is currently  ACTIVE
+        To what status do you want to change it
+        Discontinued press '2'
+        Recalled press '3'
+        Go back to main Menu press '4'
+2
+Your Item was changed to DISCONTINUED status!
+
+        Please enter an option from bellow
+        1.Print all items in the inventory unsorted!
+        2.Print invalid records from an error file!
+        3.Search for an item by ID or name!
+        4.Print a report of details!
+        5.Change Status of Item!
+        6.Print all active items
+        7.Print all discontinued items
+        8.Print all recalled Items
+        9.Sort by any field in ascending order
+        10.Quit Program!
+5
+What item do you want to change the status of? (If you wnat to go back to the main Menu press '4')
+apple
+Item:
+     1236X     APPLE        76      8.65
+        Your Item Status is currently  ACTIVE
+        To what status do you want to change it
+        Discontinued press '2'
+        Recalled press '3'
+        Go back to main Menu press '4'
+2
+Your Item was changed to DISCONTINUED status!
+
+        Please enter an option from bellow
+        1.Print all items in the inventory unsorted!
+        2.Print invalid records from an error file!
+        3.Search for an item by ID or name!
+        4.Print a report of details!
+        5.Change Status of Item!
+        6.Print all active items
+        7.Print all discontinued items
+        8.Print all recalled Items
+        9.Sort by any field in ascending order
+        10.Quit Program!
+6
+     1235X    ORANGE        55     11.78
+
+        Please enter an option from bellow
+        1.Print all items in the inventory unsorted!
+        2.Print invalid records from an error file!
+        3.Search for an item by ID or name!
+        4.Print a report of details!
+        5.Change Status of Item!
+        6.Print all active items
+        7.Print all discontinued items
+        8.Print all recalled Items
+        9.Sort by any field in ascending order
+        10.Quit Program!
+7
+     1234X    BANANA         5     13.45
+     1236X     APPLE        76      8.65
+
+        Please enter an option from bellow
+        1.Print all items in the inventory unsorted!
+        2.Print invalid records from an error file!
+        3.Search for an item by ID or name!
+        4.Print a report of details!
+        5.Change Status of Item!
+        6.Print all active items
+        7.Print all discontinued items
+        8.Print all recalled Items
+        9.Sort by any field in ascending order
+        10.Quit Program!
+8
+     1238X     MANGO        53     44.78
+
+        Please enter an option from bellow
+        1.Print all items in the inventory unsorted!
+        2.Print invalid records from an error file!
+        3.Search for an item by ID or name!
+        4.Print a report of details!
+        5.Change Status of Item!
+        6.Print all active items
+        7.Print all discontinued items
+        8.Print all recalled Items
+        9.Sort by any field in ascending order
+        10.Quit Program!
+10
+Quiting program...
+
+C:\Users\Robin\Desktop\Scoala\Anul 2\SEM #2\CS 136\LABS\Lab 2.1!\Debug\Lab 2.1!.exe (process 4468) exited with code 0.
+Press any key to close this window . . .
+*/
+
+
+
+
+
+
+
+//4.Testing Sort function with correct input!
+/*
+        Please enter an option from bellow
+        1.Print all items in the inventory unsorted!
+        2.Print invalid records from an error file!
+        3.Search for an item by ID or name!
+        4.Print a report of details!
+        5.Change Status of Item!
+        6.Print all active items
+        7.Print all discontinued items
+        8.Print all recalled Items
+        9.Sort by any field in ascending order
+        10.Quit Program!
+9
+By which field would you like to sort the fucntion?
+1.By ID
+2.By Name
+3.By Quantity
+4.By price
+5.Return to main menu
+3
+     1234X    BANANA         5     13.45
+     1238X     MANGO        53     44.78
+     1235X    ORANGE        55     11.78
+     1236X     APPLE        76      8.65
+
+        Please enter an option from bellow
+        1.Print all items in the inventory unsorted!
+        2.Print invalid records from an error file!
+        3.Search for an item by ID or name!
+        4.Print a report of details!
+        5.Change Status of Item!
+        6.Print all active items
+        7.Print all discontinued items
+        8.Print all recalled Items
+        9.Sort by any field in ascending order
+        10.Quit Program!
+9
+By which field would you like to sort the fucntion?
+1.By ID
+2.By Name
+3.By Quantity
+4.By price
+5.Return to main menu
+4
+     1236X     APPLE        76      8.65
+     1235X    ORANGE        55     11.78
+     1234X    BANANA         5     13.45
+     1238X     MANGO        53     44.78
+
+        Please enter an option from bellow
+        1.Print all items in the inventory unsorted!
+        2.Print invalid records from an error file!
+        3.Search for an item by ID or name!
+        4.Print a report of details!
+        5.Change Status of Item!
+        6.Print all active items
+        7.Print all discontinued items
+        8.Print all recalled Items
+        9.Sort by any field in ascending order
+        10.Quit Program!
+9
+By which field would you like to sort the fucntion?
+1.By ID
+2.By Name
+3.By Quantity
+4.By price
+5.Return to main menu
+2
+     1236X     APPLE        76      8.65
+     1234X    BANANA         5     13.45
+     1238X     MANGO        53     44.78
+     1235X    ORANGE        55     11.78
+
+        Please enter an option from bellow
+        1.Print all items in the inventory unsorted!
+        2.Print invalid records from an error file!
+        3.Search for an item by ID or name!
+        4.Print a report of details!
+        5.Change Status of Item!
+        6.Print all active items
+        7.Print all discontinued items
+        8.Print all recalled Items
+        9.Sort by any field in ascending order
+        10.Quit Program!
+9
+By which field would you like to sort the fucntion?
+1.By ID
+2.By Name
+3.By Quantity
+4.By price
+5.Return to main menu
+1
+     1234X    BANANA         5     13.45
+     1235X    ORANGE        55     11.78
+     1236X     APPLE        76      8.65
+     1238X     MANGO        53     44.78
+
+        Please enter an option from bellow
+        1.Print all items in the inventory unsorted!
+        2.Print invalid records from an error file!
+        3.Search for an item by ID or name!
+        4.Print a report of details!
+        5.Change Status of Item!
+        6.Print all active items
+        7.Print all discontinued items
+        8.Print all recalled Items
+        9.Sort by any field in ascending order
+        10.Quit Program!
+9
+By which field would you like to sort the fucntion?
+1.By ID
+2.By Name
+3.By Quantity
+4.By price
+5.Return to main menu
+4
+     1236X     APPLE        76      8.65
+     1235X    ORANGE        55     11.78
+     1234X    BANANA         5     13.45
+     1238X     MANGO        53     44.78
+
+        Please enter an option from bellow
+        1.Print all items in the inventory unsorted!
+        2.Print invalid records from an error file!
+        3.Search for an item by ID or name!
+        4.Print a report of details!
+        5.Change Status of Item!
+        6.Print all active items
+        7.Print all discontinued items
+        8.Print all recalled Items
+        9.Sort by any field in ascending order
+        10.Quit Program!
+9
+By which field would you like to sort the fucntion?
+1.By ID
+2.By Name
+3.By Quantity
+4.By price
+5.Return to main menu
+5
+Returned to menu!
+
+        Please enter an option from bellow
+        1.Print all items in the inventory unsorted!
+        2.Print invalid records from an error file!
+        3.Search for an item by ID or name!
+        4.Print a report of details!
+        5.Change Status of Item!
+        6.Print all active items
+        7.Print all discontinued items
+        8.Print all recalled Items
+        9.Sort by any field in ascending order
+        10.Quit Program!
+1
+     1234X    BANANA         5     13.45
+     1235X    ORANGE        55     11.78
+     1236X     APPLE        76      8.65
+     1238X     MANGO        53     44.78
+
+        Please enter an option from bellow
+        1.Print all items in the inventory unsorted!
+        2.Print invalid records from an error file!
+        3.Search for an item by ID or name!
+        4.Print a report of details!
+        5.Change Status of Item!
+        6.Print all active items
+        7.Print all discontinued items
+        8.Print all recalled Items
+        9.Sort by any field in ascending order
+        10.Quit Program!
+9
+By which field would you like to sort the fucntion?
+1.By ID
+2.By Name
+3.By Quantity
+4.By price
+5.Return to main menu
+2
+     1236X     APPLE        76      8.65
+     1234X    BANANA         5     13.45
+     1238X     MANGO        53     44.78
+     1235X    ORANGE        55     11.78
+
+        Please enter an option from bellow
+        1.Print all items in the inventory unsorted!
+        2.Print invalid records from an error file!
+        3.Search for an item by ID or name!
+        4.Print a report of details!
+        5.Change Status of Item!
+        6.Print all active items
+        7.Print all discontinued items
+        8.Print all recalled Items
+        9.Sort by any field in ascending order
+        10.Quit Program!
+1
+     1234X    BANANA         5     13.45
+     1235X    ORANGE        55     11.78
+     1236X     APPLE        76      8.65
+     1238X     MANGO        53     44.78
+
+        Please enter an option from bellow
+        1.Print all items in the inventory unsorted!
+        2.Print invalid records from an error file!
+        3.Search for an item by ID or name!
+        4.Print a report of details!
+        5.Change Status of Item!
+        6.Print all active items
+        7.Print all discontinued items
+        8.Print all recalled Items
+        9.Sort by any field in ascending order
+        10.Quit Program!
+*/
+
+
+
+
+
+
+//5.Testin Sort function with wrong input
+/*
+        Please enter an option from bellow
+        1.Print all items in the inventory unsorted!
+        2.Print invalid records from an error file!
+        3.Search for an item by ID or name!
+        4.Print a report of details!
+        5.Change Status of Item!
+        6.Print all active items
+        7.Print all discontinued items
+        8.Print all recalled Items
+        9.Sort by any field in ascending order
+        10.Quit Program!
+9
+By which field would you like to sort the fucntion?
+1.By ID
+2.By Name
+3.By Quantity
+4.By price
+5.Return to main menu
+9
+Wrong input, please enter a option from 1 to 4!
+123
+Wrong input, please enter a option from 1 to 4!
+321
+Wrong input, please enter a option from 1 to 4!
+df
+Wrong input, please enter a option from 1 to 4!
+##
+Wrong input, please enter a option from 1 to 4!
+-2
+Wrong input, please enter a option from 1 to 4!
+2
+     1236X     APPLE        76      8.65
+     1234X    BANANA         5     13.45
+     1238X     MANGO        53     44.78
+     1235X    ORANGE        55     11.78
+
+        Please enter an option from bellow
+        1.Print all items in the inventory unsorted!
+        2.Print invalid records from an error file!
+        3.Search for an item by ID or name!
+        4.Print a report of details!
+        5.Change Status of Item!
+        6.Print all active items
+        7.Print all discontinued items
+        8.Print all recalled Items
+        9.Sort by any field in ascending order
+        10.Quit Program!
+3
+Enter an Item ID or Item Name: orange
+     1235X    ORANGE        55     11.78
+
+        Please enter an option from bellow
+        1.Print all items in the inventory unsorted!
+        2.Print invalid records from an error file!
+        3.Search for an item by ID or name!
+        4.Print a report of details!
+        5.Change Status of Item!
+        6.Print all active items
+        7.Print all discontinued items
+        8.Print all recalled Items
+        9.Sort by any field in ascending order
+        10.Quit Program!
+9
+By which field would you like to sort the fucntion?
+1.By ID
+2.By Name
+3.By Quantity
+4.By price
+5.Return to main menu
+4
+     1236X     APPLE        76      8.65
+     1235X    ORANGE        55     11.78
+     1234X    BANANA         5     13.45
+     1238X     MANGO        53     44.78
+
+        Please enter an option from bellow
+        1.Print all items in the inventory unsorted!
+        2.Print invalid records from an error file!
+        3.Search for an item by ID or name!
+        4.Print a report of details!
+        5.Change Status of Item!
+        6.Print all active items
+        7.Print all discontinued items
+        8.Print all recalled Items
+        9.Sort by any field in ascending order
+        10.Quit Program!
+9
+By which field would you like to sort the fucntion?
+1.By ID
+2.By Name
+3.By Quantity
+4.By price
+5.Return to main menu
+2
+     1236X     APPLE        76      8.65
+     1234X    BANANA         5     13.45
+     1238X     MANGO        53     44.78
+     1235X    ORANGE        55     11.78
+
+        Please enter an option from bellow
+        1.Print all items in the inventory unsorted!
+        2.Print invalid records from an error file!
+        3.Search for an item by ID or name!
+        4.Print a report of details!
+        5.Change Status of Item!
+        6.Print all active items
+        7.Print all discontinued items
+        8.Print all recalled Items
+        9.Sort by any field in ascending order
+        10.Quit Program!
+kdjf
+Invlaid input. Please renter an option from bellow
+
+        Please enter an option from bellow
+        1.Print all items in the inventory unsorted!
+        2.Print invalid records from an error file!
+        3.Search for an item by ID or name!
+        4.Print a report of details!
+        5.Change Status of Item!
+        6.Print all active items
+        7.Print all discontinued items
+        8.Print all recalled Items
+        9.Sort by any field in ascending order
+        10.Quit Program!
+9
+By which field would you like to sort the fucntion?
+1.By ID
+2.By Name
+3.By Quantity
+4.By price
+5.Return to main menu
+5
+Returned to menu!
+
+        Please enter an option from bellow
+        1.Print all items in the inventory unsorted!
+        2.Print invalid records from an error file!
+        3.Search for an item by ID or name!
+        4.Print a report of details!
+        5.Change Status of Item!
+        6.Print all active items
+        7.Print all discontinued items
+        8.Print all recalled Items
+        9.Sort by any field in ascending order
+        10.Quit Program!
+9
+By which field would you like to sort the fucntion?
+1.By ID
+2.By Name
+3.By Quantity
+4.By price
+5.Return to main menu
+Robin
+Wrong input, please enter a option from 1 to 4!
+2
+     1236X     APPLE        76      8.65
+     1234X    BANANA         5     13.45
+     1238X     MANGO        53     44.78
+     1235X    ORANGE        55     11.78
+
+        Please enter an option from bellow
+        1.Print all items in the inventory unsorted!
+        2.Print invalid records from an error file!
+        3.Search for an item by ID or name!
+        4.Print a report of details!
+        5.Change Status of Item!
+        6.Print all active items
+        7.Print all discontinued items
+        8.Print all recalled Items
+        9.Sort by any field in ascending order
+        10.Quit Program!
+1
+     1234X    BANANA         5     13.45
+     1235X    ORANGE        55     11.78
+     1236X     APPLE        76      8.65
+     1238X     MANGO        53     44.78
+
+        Please enter an option from bellow
+        1.Print all items in the inventory unsorted!
+        2.Print invalid records from an error file!
+        3.Search for an item by ID or name!
+        4.Print a report of details!
+        5.Change Status of Item!
+        6.Print all active items
+        7.Print all discontinued items
+        8.Print all recalled Items
+        9.Sort by any field in ascending order
+        10.Quit Program!
+*/
+
+
+
+
+
+
+
+//6.Testing functions with empty file
+/*The input file is empty. Quitting the program
+
+C:\Users\Robin\Desktop\Scoala\Anul 2\SEM #2\CS 136\LABS\Lab 2.1!\Debug\Lab 2.1!.exe (process 2552) exited with code 1.
+Press any key to close this window . . .
+*/

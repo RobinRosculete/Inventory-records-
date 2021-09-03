@@ -1,0 +1,2 @@
+***Error File***
+     1237X   AVOCADO      -123     12.86	 Error! the item Quantity is invalid!

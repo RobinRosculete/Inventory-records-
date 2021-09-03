@@ -1,0 +1,5 @@
+1234x Banana   5  13.45
+1235x Orange   55  11.78
+1236x Apple    76  8.65
+1237x Avocado  -123 12.86
+1238x Mango    53 44.78
